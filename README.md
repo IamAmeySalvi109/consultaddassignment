@@ -1,2 +1,2 @@
 # consultaddassignment
-Assignment for GO training
+Assignment for Main training
