@@ -1,0 +1,140 @@
+body {
+  font-family: "Century Gothic", Helvetica, sans-serif;
+  font-weight: 250;
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: #222426;
+  color: #ced9e0;
+  text-align: center;
+}
+
+img {
+    margin-top: 2em;
+    display: block;
+}
+
+.image1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 15px;
+}
+
+.image2 {
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  width: 20%;
+  padding: 0.5em;
+}
+
+.image3 {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: 100px;
+  float: right;
+  width: 20%;
+  padding: 0.5em;
+}
+
+h1 {
+    color: #ced9e0;
+    text-align: center;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-weight: 250;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: #da1212;
+}
+
+h2 {
+    color: #ced9e0;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-weight: 250;
+    font-size: 40px;
+}
+
+.menu li{
+  display: inline;
+  color: #ced9e0;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+  position: relative;
+  padding: 50px 50px;
+  letter-spacing: .2em;
+  font-family: "Century Gothic", Helvetica, sans-serif;
+}
+
+footer {
+    color: #ced9e0;
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    /*text-align: right;*/
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-weight: 250;
+    font-size: 12px;
+}
+
+p {
+    color: #ced9e0;
+    text-align: left;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+}
+
+.p1{
+    position:relative;
+    left: 260px;
+}
+
+.p2{
+    position:relative;
+    left: 195px;
+}
+
+.p3{
+  font-weight: 250;
+  font-size: 17px;
+  text-align: center;
+}
+
+button {
+    position:relative;
+    left: 760px;
+    font-size: 25px;
+    background: #da1212;
+    color: #fff;
+    border: 2px solid #da1212;
+    text-align: center;
+    width: 10%;
+    font-family: "Century Gothic", Helvetica, sans-serif;
+    border-radius: 6px;
+}
+
+.box1{
+  background: transparent;
+  color: #da1212;
+  border: 2px solid #da1212;
+  font-size: 25px;
+  position: relative;
+  left: 400px;
+  border-radius: 6px;
+}
+
+.box2{
+  background: transparent;
+  color: #da1212;
+  border: 2px solid #da1212;
+  font-size: 25px;
+  position: relative;
+  left: 335px;
+  border-radius: 6px;
+}

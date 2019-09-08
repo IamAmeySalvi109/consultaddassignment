@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "{% static 'css/styles.css' %}" >
+    <title>Signup Page</title>
+</head>
+
+<body>
+{{ signup_temp_var }}
+
+<h1>SIGN UP</h1>
+
+<p>
+    <label class="p1">NAME: </label>
+    <input class="box1" type="text" required>
+</p>
+
+<p>
+    <label class="p1">EMAIL: </label>
+    <input class="box1" type="text" required>
+</p>
+
+<p>
+    <label class="p2">PASSWORD: </label>
+    <input class="box2" type="password" required>
+</p>
+
+<p>
+    <button type="submit">SUBMIT</button>
+</p>
+
+
+</body>
+
+<footer>CREATED BY: AMEY SALVI</footer>
+
+</html>
