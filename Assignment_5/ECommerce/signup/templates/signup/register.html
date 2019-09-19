@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load crispy_forms_tags %}
+<html>
+
+<head>
+    <title>Signup Page</title>
+</head>
+
+<body>
+    <form method = "POST">
+    {% csrf_token %}
+
+        <h1>
+            SIGN UP
+        </h1>
+
+        <fieldset>
+            <legend>Join Today</legend>
+            {{ form|crispy }}
+        </fieldset>
+
+        <div>
+            <button type="submit">SUBMIT</button>
+        </div>
+
+        <div>
+            <small>
+                Already have an account? <a href="{% url 'login' %}">Log In</a>
+            </small>
+        </div>
+
+
+    </form>
+</body>
+
+<footer>CREATED BY: AMEY SALVI</footer>
+
+</html>
